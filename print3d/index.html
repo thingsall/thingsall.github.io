@@ -1,0 +1,14 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>뽑는생활 제품 모아보기</title><meta name="robots" content="noindex"><meta name="generator" content="shorts-studio catalog"><style>
+:root{--ink:#1b1f24;--muted:#5f6b76;--line:#e3e6e8;--bg:#f5f6f4;--accent:#0f6f62}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:Pretendard,"Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:16px}h1{font-size:20px;margin:8px 0}.note{font-size:12px;color:var(--muted);margin:0 0 12px}
+input{width:100%;padding:12px 14px;font-size:16px;border:1px solid var(--line);border-radius:10px;margin:8px 0 14px}
+.item{display:grid;grid-template-columns:88px 1fr;gap:12px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;margin-bottom:10px}
+.item img{width:88px;height:88px;object-fit:cover;border-radius:8px;background:#eee}.no{font-weight:800;color:var(--accent)}
+.name{margin:2px 0 4px;font-size:15px;line-height:1.35}.price{font-size:14px}.rocket{font-size:11px;color:#2448a8;margin-left:6px}
+.links{display:flex;gap:8px;margin-top:6px;flex-wrap:wrap}.links a{font-size:13px;padding:6px 10px;border-radius:999px;text-decoration:none}
+.buy{background:var(--accent);color:#fff}.short{border:1px solid var(--line);color:var(--ink)}.ch{display:block;background:#fff;border:1px solid var(--line);
+border-radius:12px;padding:14px;margin-bottom:10px;color:var(--ink);text-decoration:none}.empty{color:var(--muted)}
+</style></head><body><main class="wrap"><h1>뽑는생활 제품 모아보기</h1><p class="note">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다</p><input id="q" type="search" placeholder="영상에서 본 번호(예: 095)나 제품 이름" aria-label="번호·이름으로 찾기"><p class="empty">아직 올린 제품이 없어요.</p></main><script>(function(){var q=document.getElementById('q');if(!q)return;q.addEventListener('input',function(){
+var v=q.value.trim().replace(/[\[\]]/g,'').toLowerCase();document.querySelectorAll('.item').forEach(function(el){
+el.style.display=!v||el.getAttribute('data-key').indexOf(v)!==-1?'':'none';});});})();</script></body></html>
